@@ -1,5 +1,5 @@
 function displayImages() {
-  const imageUrls = [    "content/gif-1.gif",    "content/gif-2.gif",    "content/gif-3.gif",    "content/gif-4.gif",    "content/gif-5.gif",    "content/gif-6.gif"  ];
+  const imageUrls = [    "content/gif-1.gif",    "content/gif-2.gif",    "content/gif-3.gif",    "content/gif-4.gif",    "content/gif-5.gif",    "content/gif-6.gif", "content/gif-7.gif",  "content/gif-8.gif", "content/gif-9.gif"];
 
   // shuffle the array randomly
   for (let i = imageUrls.length - 1; i > 0; i--) {
