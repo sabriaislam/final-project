@@ -16,10 +16,38 @@ body{
 	height: 100%;
 }
 
-.pop-up{
+a.redirect , .pop-up{
 	position: absolute;
-	width: 30%;
+	width: 50%;
 	top: 50%;
-  	left: 35%;
-  	z-index: 2;
+  	left: 25%;
+  	z-index: 2; 
+}
+
+#myImage {
+  display: none;
+}
+
+.sponsor {
+  position: absolute;
+  top: 3em;
+  left: 2em;
+  transform: translate(-50%, -50%) scale(0.2);
+  animation: fadein 0.5s;
+}
+
+.ad-content {
+  	display: flex;
+  	flex-direction: column;
+  	height: 100vh;
+  	justify-content: space-between;
+  	align-items: flex-end;
+}
+
+.sponsor-title{
+	align-self: flex-start;
+}
+
+a.skip-ads{
+	align-self: flex-end;
 }
