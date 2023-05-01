@@ -51,3 +51,30 @@ a.redirect , .pop-up{
 a.skip-ads{
 	align-self: flex-end;
 }
+
+#main{
+	font-size: 5rem;
+  margin: 5rem;
+  text-align: center;
+}
+
+#info{
+	text-align: center;
+	font-size: 4rem;
+  margin: 5rem;
+}
+
+#outputContainer{
+	text-align: center;
+	font-size: 3rem;
+  margin: 5rem;
+}
+
+.downArrow{
+	width: 2%;
+}
+
+.downButton {
+	display: flex;
+	justify-content: center;
+}

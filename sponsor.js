@@ -21,7 +21,6 @@ let i = 0
 
 function placeImage(x, y) {
   if (i >= images.length) {
-    // Stop adding images after the end of the array
     document.removeEventListener("click", handleClick)
     document.removeEventListener("touchend", handleTouch)
     return
@@ -55,4 +54,7 @@ function handleTouch(event) {
 
 document.addEventListener("click", handleClick)
 document.addEventListener("touchend", handleTouch)
+
+
+
 
