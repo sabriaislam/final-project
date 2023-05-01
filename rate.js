@@ -20,3 +20,16 @@ function generate(incUserInput) {
     }
 }
 
+document.querySelector('a[href="#catContent"]').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#catContent').scrollIntoView({
+    behavior: 'smooth'
+  });
+});
+
+document.querySelector('a[href="#dogContent"]').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#dogContent').scrollIntoView({
+    behavior: 'smooth'
+  });
+});

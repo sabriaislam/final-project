@@ -53,8 +53,8 @@ a.skip-ads{
 }
 
 #main{
-	font-size: 5rem;
-  margin: 5rem;
+	font-size: 5.5rem;
+  margin: 2rem;
   text-align: center;
 }
 
@@ -66,15 +66,45 @@ a.skip-ads{
 
 #outputContainer{
 	text-align: center;
-	font-size: 3rem;
-  margin: 5rem;
+	font-size: 2.5rem;
 }
 
 .downArrow{
-	width: 2%;
+	width: 5%;
 }
 
 .downButton {
 	display: flex;
 	justify-content: center;
+}
+
+.pet-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.pet-collection{
+	width: auto;
+  height: 100%;
+  max-height: 25rem;
+  object-fit: cover; 
+  margin: 1%;
+  aspect-ratio: 1;
+}
+
+.political-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.political-collection{
+	width: auto;
+  height: 100%;
+  max-height: 25rem;
+  object-fit: cover; 
+  margin: 1%;
 }
