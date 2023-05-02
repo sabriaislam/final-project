@@ -1,16 +1,8 @@
 function displayImages() {
   const imageUrls = [    "content/gif-1.gif",    "content/gif-2.gif",    "content/gif-3.gif",    "content/gif-4.gif",    "content/gif-5.gif",    "content/gif-6.gif", "content/gif-7.gif",  "content/gif-8.gif", "content/gif-9.gif"];
-
-  // shuffle the array randomly
-  for (let i = imageUrls.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [imageUrls[i], imageUrls[j]] = [imageUrls[j], imageUrls[i]];
-  }
-
   const container = document.getElementById("content");
 
-  // loop through the array three times
-  for (let j = 0; j < 12; j++) {
+  for (let j = 0; j < 4; j++) {
     // shuffle the array randomly each time
     for (let i = imageUrls.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));

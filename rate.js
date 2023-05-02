@@ -20,6 +20,20 @@ function generate(incUserInput) {
     }
 }
 
+document.querySelector('a[href="#republicanContent"]').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#republicanContent').scrollIntoView({
+    behavior: 'smooth'
+  });
+});
+
+document.querySelector('a[href="#progressiveContent"]').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#progressiveContent').scrollIntoView({
+    behavior: 'smooth'
+  });
+});
+
 document.querySelector('a[href="#catContent"]').addEventListener('click', function(e) {
   e.preventDefault();
   document.querySelector('#catContent').scrollIntoView({
@@ -33,3 +47,11 @@ document.querySelector('a[href="#dogContent"]').addEventListener('click', functi
     behavior: 'smooth'
   });
 });
+
+document.querySelector('a[href="#endingContent"]').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#endingContent').scrollIntoView({
+    behavior: 'smooth'
+  });
+});
+

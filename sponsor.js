@@ -55,6 +55,7 @@ function handleTouch(event) {
 document.addEventListener("click", handleClick)
 document.addEventListener("touchend", handleTouch)
 
+// tweaked code from https://www.youtube.com/watch?v=0QCx572QiyY to fit my website
 
 
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+
 body{
 	width: 100%;
 	height: 100%;
@@ -20,8 +22,8 @@ a.redirect , .pop-up{
 	position: absolute;
 	width: 50%;
 	top: 50%;
-  	left: 25%;
-  	z-index: 2; 
+  left: 25%;
+  z-index: 2; 
 }
 
 #myImage {
@@ -42,6 +44,7 @@ a.redirect , .pop-up{
   	height: 100vh;
   	justify-content: space-between;
   	align-items: flex-end;
+  	padding: 1%;
 }
 
 .sponsor-title{
@@ -50,12 +53,15 @@ a.redirect , .pop-up{
 
 a.skip-ads{
 	align-self: flex-end;
+	color: white;
+	font-size: 2em;
 }
 
 #main{
 	font-size: 5.5rem;
   margin: 2rem;
   text-align: center;
+  color: #4285F4;
 }
 
 #info{
@@ -108,3 +114,86 @@ a.skip-ads{
   object-fit: cover; 
   margin: 1%;
 }
+
+#sponsor-page{
+	background: #1778F2;
+	color: white;
+	font-family: klavika-web, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+#rate-page{
+	font-family: 'Sen', sans-serif;
+}
+
+#catContent{
+	display: flex;
+	justify-content: center;
+	color: #DB4437;
+}
+
+#dogContent{
+	display: flex;
+	justify-content: center;
+	color: #F4B400;
+}
+
+#republicanContent{
+	display: flex;
+	justify-content: center;
+	color: #0F9D58;
+}
+
+#progressiveContent{
+	display: flex;
+	justify-content: center;
+	color: #4285F4;
+}
+
+.stay{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: black;
+	font-size: 4em;
+}
+
+#executeButton{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.3em;
+  margin: 0.5%;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  color: black;
+	font-family: 'Sen', sans-serif;
+	border-radius: 5%;
+}
+
+#myInput{
+	font-family: 'Sen', sans-serif;
+	border-radius: 5%;
+	padding: 1%;
+	margin: 0.5%;
+}
+
+#endingContent{
+	display: flex;
+	justify-content: center;
+	font-family: 'Times New Roman' ;
+
+}
+
+.ending{
+	display: flex;
+	font-family: 'Times New Roman';
+	justify-content: center;
+
+
+}
+
+
